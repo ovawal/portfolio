@@ -17,7 +17,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
+      I occasionally write about Linux, technology, and share thoughts on the intersection of
       creativity and engineering.
     </>
   ),
@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Linux System Administrator</>,
   subline: (
     <>
       I'm Walter, a Linux System Administrator, specializing RedHat Enterprise Linux and Debian systems. 
