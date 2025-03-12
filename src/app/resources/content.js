@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Linux Sytem Engineer",
-  avatar: "/images/avatar.jpg",
+  avatr: "/images/avator.jpg",
   location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -69,7 +69,7 @@ const about = {
     display: true,
     subItems: false,
   },
-  avatar: {
+  avator: {
     display: true,
   },
   calendar: {
