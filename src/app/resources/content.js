@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Walter",
+  lastName: "Okova",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Linux Sytem Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Chicago", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -55,8 +55,8 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Walter, a Linux System Administrator, specializing RedHat Enterprise Linux and Debian systems. 
+      <br /> After hours, I build my own projects.
     </>
   ),
 };
@@ -81,7 +81,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Walter is US based Linux System administrator with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
